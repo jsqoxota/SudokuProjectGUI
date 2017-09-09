@@ -19,6 +19,11 @@ namespace SudokuProjectGUI.SudokuProjectGUI
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 只能输入数字
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void textBox_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (e.KeyChar != 8 && !Char.IsDigit(e.KeyChar))
@@ -27,6 +32,11 @@ namespace SudokuProjectGUI.SudokuProjectGUI
             }
         }
 
+        /// <summary>
+        /// 开始
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void beginButton_Click(object sender, EventArgs e)
         {
             SudokuCreat.Sudoku S = new SudokuCreat.Sudoku();
@@ -35,6 +45,7 @@ namespace SudokuProjectGUI.SudokuProjectGUI
             initialize();
             scoop();
 
+            //挖空效果
             for(int i = 0; i < 9; i++)
             {
                 for (int j = 0; j < 9; j++)
@@ -91,6 +102,9 @@ namespace SudokuProjectGUI.SudokuProjectGUI
                 SD[result[i] / 9, result[i] % 9] = 0;
         }
 
+        /// <summary>
+        /// 初始化textbox
+        /// </summary>
         private void initialize()
         {
             for (int i = 0; i < 9; i++)
@@ -101,6 +115,32 @@ namespace SudokuProjectGUI.SudokuProjectGUI
                     ((TextBox)(this.Controls.Find(name, false)[0])).Text = null;
                     ((TextBox)(this.Controls.Find(name, false)[0])).ReadOnly = false;
                 }
+            }
+        }
+
+        /// <summary>
+        /// 检查
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void checkButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        /// <summary>
+        /// 向数组中保存更改结果
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void textBox_Leave(object sender, EventArgs e)
+        {
+            if (SD != null)
+            {
+                string name = ((TextBox)sender).Name;
+                int i = int.Parse(name.Substring(7, 1));
+                int j = int.Parse(name.Substring(8, 1));
+                SD[i, j] = int.Parse(((TextBox)sender).Text);
             }
         }
     }

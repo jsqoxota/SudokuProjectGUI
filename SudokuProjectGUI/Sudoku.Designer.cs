@@ -110,7 +110,89 @@
             this.textBox87 = new System.Windows.Forms.TextBox();
             this.textBox88 = new System.Windows.Forms.TextBox();
             this.beginButton = new System.Windows.Forms.Button();
+            this.checkButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            this.textBox01.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox02.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox03.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox04.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox05.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox06.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox07.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox08.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox10.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox11.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox12.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox13.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox14.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox15.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox16.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox17.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox18.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox20.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox21.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox22.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox23.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox24.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox25.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox26.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox27.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox28.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox30.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox31.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox32.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox33.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox34.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox35.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox36.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox37.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox38.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox40.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox41.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox42.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox43.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox44.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox45.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox46.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox47.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox48.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox50.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox51.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox52.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox53.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox54.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox55.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox56.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox57.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox58.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox60.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox61.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox62.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox63.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox64.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox65.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox66.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox67.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox68.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox70.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox71.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox72.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox73.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox74.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox75.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox76.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox77.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox78.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox80.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox81.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox82.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox83.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox84.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox85.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox86.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox87.Leave += new System.EventHandler(this.textBox_Leave);
+            this.textBox88.Leave += new System.EventHandler(this.textBox_Leave);
+
             // 
             // textBox00
             // 
@@ -123,6 +205,7 @@
             this.textBox00.TabIndex = 0;
             this.textBox00.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox00.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
+            this.textBox00.Leave += new System.EventHandler(this.textBox_Leave);
             // 
             // textBox01
             // 
@@ -1094,11 +1177,22 @@
             this.beginButton.UseVisualStyleBackColor = true;
             this.beginButton.Click += new System.EventHandler(this.beginButton_Click);
             // 
+            // checkButton
+            // 
+            this.checkButton.Location = new System.Drawing.Point(626, 398);
+            this.checkButton.Name = "checkButton";
+            this.checkButton.Size = new System.Drawing.Size(100, 30);
+            this.checkButton.TabIndex = 81;
+            this.checkButton.Text = "check";
+            this.checkButton.UseVisualStyleBackColor = true;
+            this.checkButton.Click += new System.EventHandler(this.checkButton_Click);
+            // 
             // Sudoku
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(789, 583);
+            this.Controls.Add(this.checkButton);
             this.Controls.Add(this.beginButton);
             this.Controls.Add(this.textBox00);
             this.Controls.Add(this.textBox01);
@@ -1275,5 +1369,6 @@
         private System.Windows.Forms.TextBox textBox87;
         private System.Windows.Forms.TextBox textBox88;
         private System.Windows.Forms.Button beginButton;
+        private System.Windows.Forms.Button checkButton;
     }
 }
