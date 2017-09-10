@@ -26,7 +26,7 @@ namespace SudokuProjectGUI.SudokuProjectGUI
         /// <param name="e"></param>
         private void textBox_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar != 8 && !Char.IsDigit(e.KeyChar))
+            if (e.KeyChar != 8 && !Char.IsDigit(e.KeyChar)|| e.KeyChar == 48)
             {
                 e.Handled = true;
             }
