@@ -1289,9 +1289,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(579, 34);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 19);
+            this.label2.Size = new System.Drawing.Size(104, 19);
             this.label2.TabIndex = 83;
-            this.label2.Text = "使用说明";
+            this.label2.Text = "使用说明：";
             // 
             // label3
             // 
@@ -1316,18 +1316,18 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(606, 145);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(155, 19);
+            this.label5.Size = new System.Drawing.Size(165, 19);
             this.label5.TabIndex = 86;
-            this.label5.Text = "正确显示success";
+            this.label5.Text = "正确:显示success";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(606, 186);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(161, 19);
+            this.label6.Size = new System.Drawing.Size(171, 19);
             this.label6.TabIndex = 87;
-            this.label6.Text = "错误显示错误提示";
+            this.label6.Text = "错误:显示错误提示";
             // 
             // Sudoku
             // 

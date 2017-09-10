@@ -259,6 +259,5 @@ namespace SudokuProjectGUI.SudokuProjectGUI
                 }
             }
         }
-
     }
 }
